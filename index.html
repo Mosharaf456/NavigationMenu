@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment4</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .menu{
+        height: 58px;
+        width: 100%;
+        background: #ddd;
+    }
+    header{
+        background-color: #ddd;
+    }
+    header nav{
+        width: 60%;
+        margin: 0 auto;
+    }
+  .menu header nav ul{
+        float: right;
+        background-color: #DDD;
+    }
+   header nav ul li{
+        padding: 20px;
+        display: inline-block;
+    }
+    header nav ul li a{
+        /* padding :0 10px; */
+        text-decoration: none;
+        color: #000;
+    }
+    /* header nav ul li a:hover{
+        color: #f5f5f5;
+    } */
+    header nav ul li:hover{
+        background-color: #666;
+    }
+    header nav ul li:hover a{
+        color : #f5f5f5; 
+    } 
+    .logo{
+        width: 20%;
+        float: left;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .box-1{
+        border: 5px solid red;
+        width: calc(20% - 10px);
+        background-color: #2c2c2c;
+        padding: 95px 0;
+        float: left;
+    }
+    .box-2{
+        width: 50%;
+        background-color: #343434;
+        padding: 100px 0;
+        float: left;
+    }
+    .box-3{
+        width: 30%;
+        background-color: #525252;
+        /* padding: 100px 0; */
+        /* height: 200px; */
+        float: left;
+    }
+    .subbox-1{
+        width: calc(100% - 20px );
+        background-color: blue;
+        /* height: 100px; */
+        padding: 10px;
+    }
+    .subbox-2{
+        width: 100%;
+        background-color: maroon;
+        /* height: 100px;  */
+    }
+    .sub-1{
+        width: calc(50% - 16px );
+        background-color: rgb(0, 51, 128);
+        float: left;
+        padding: 8px;
+    }
+    .sub-1{
+        width: calc(50% - 16px );
+        background-color: rgb(0, 51, 128);
+        float: left;
+        padding: 8px;
+    }
+</style>
+</head>
+<body>
+    <div class="logo">
+       <img src="./logo/minimo.png" alt="">
+    </div>
+    <section class="menu">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contents</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section>
+        <div class="container">
+            <div class="box-1">
+            </div>
+            <div class="box-2">
+            </div>
+            <div class="box-3">
+                <div class="subbox-1">
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                     Expedita molestias laboriosam nostrum doloremque corrupti
+               </p>
+                </div>
+                <div class="subbox-2">
+                   <div class="sub-1">
+                        <p>
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, fugiat doloribus. Beatae aliquid molestias, ut dolorem quas laboriosam aut dolore?
+                    </p>
+                </div>
+                <div class="sub-2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt non consequatur! Illo voluptas placeat beatae cum impedit dolorum deserunt!
+                    </p>
+
+                </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+</body>
+</html>
